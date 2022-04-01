@@ -13,7 +13,7 @@ The classes CSV contains a header line and rows of class name, class abstraction
 
 | Class Name | Abstraction | Role Stereotype    |
 |------------|-------------|--------------------|
-| Point<T>   | interface   | Structurer         |
+| Point\<T\> | interface   | Structurer         |
 | Point2D    |             | Information Holder |
 | Rectangle  |             | Service Provider   |
 | Shape      | abstract    | Interfacer         |
@@ -24,8 +24,8 @@ The relationships CSV contains a header line and rows of relationship name, part
 
 | Relationship | Participant A | Participant B |
 |--------------|---------------|---------------|
-| realizes     | Point2D       | Point<T>      |
-| composites   | Rectangle     | Point<T>      |
+| realizes     | Point2D       | Point\<T\>    |
+| composites   | Rectangle     | Point\<T\>    |
 | inherits     | Rectangle     | Shape         |
 
 (See `sample connections.csv`)
