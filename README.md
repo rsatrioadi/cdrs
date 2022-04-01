@@ -5,7 +5,7 @@ This tool takes two CSV files, each containing list of classes and list of relat
 ## Requirements
 
 - Python (I use 3.9.5, other versions are untested)
-- [Graphviz](https://graphviz.org/)
+- [Graphviz](https://graphviz.org/download/)
 
 ## Input files format and examples
 
