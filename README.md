@@ -40,15 +40,15 @@ For use within a Jupyter notebook, consult `classdiagram-demo.ipynb`.
 
 For use as a command line tool, assuming the use of `python` command:
 
-```python
-$ ./python classdiagram.py <classes-csv> <relationships-csv> <output-filename>
+```shell
+$ python classdiagram.py <classes-csv> <relationships-csv> <output-filename>
 ```
 
 Output file name can be in any format supported by Graphviz, e.g., PNG or SVG.
 
 Here is an example:
 
-```python
-$ ./python classdiagram.py sample_members.csv sample_connections.csv output.png
+```shell
+$ python classdiagram.py sample_members.csv sample_connections.csv output.png
 ```
 
