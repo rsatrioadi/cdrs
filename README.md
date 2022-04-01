@@ -30,6 +30,10 @@ The relationships CSV contains a header line and rows of relationship name, part
 
 (See `sample connections.csv`)
 
+These input files will generate the following class diagram:
+
+![Class Diagram](classdiagram-demo.png)
+
 ## Usage
 
 For use within a Jupyter notebook, consult `classdiagram-demo.ipynb`.
