@@ -28,7 +28,7 @@ The relationships CSV contains a header line and rows of relationship name, part
 | composites   | Rectangle     | Point\<T\>    |
 | inherits     | Rectangle     | Shape         |
 
-(See `sample connections.csv`)
+(See `sample_connections.csv`)
 
 These input files will generate the following class diagram:
 
